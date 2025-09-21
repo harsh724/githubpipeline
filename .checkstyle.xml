@@ -34,5 +34,12 @@
     <module name="LocalVariableName"/>
     <module name="PackageName"/>
   </module>
+  <module name="JavadocMethod">
+    <!-- Ignore methods annotated with @Test -->
+    <property name="allowMissingJavadocOnMethods" value="true"/>
+    <property name="scope" value="public"/>
+    <property name="excludeMethodAnnotations" value="org.testng.annotations.Test"/>
+  </module>
+
 
 </module>
