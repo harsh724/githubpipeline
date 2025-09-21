@@ -1,11 +1,13 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+/**
+ * Entry point of the application.
+ */
+public final class MainClass {
 
-class MainClass
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		System.out.println("here goes the pipeline");
-	}
+    private MainClass() {
+        // Prevent instantiation
+    }
+
+    public static void main(final String[] args) throws Exception {
+        System.out.println("here goes the pipeline");
+    }
 }
